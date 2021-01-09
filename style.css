@@ -1,0 +1,29 @@
+.card:hover{
+    background-color: rgb(75, 71, 71);
+}
+.card:hover h2{
+    color: teal;
+}
+.card:hover p{
+    color: white;
+}
+img{
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.card:hover img{
+    transform:scale(0.85);
+}
+h2{
+    font-size: 20px;
+}
+
+p.error{
+    display: none;
+    font-size: 85%;
+    color: tomato;
+}
+
